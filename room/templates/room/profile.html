@@ -20,8 +20,9 @@
             <p>@{{user.username}}</p>
             {% if request.user == user%}
             <a href="{% url 'edit_user'%}"
-              {%endif%}
+              
              class="btn btn--main btn--pill">Edit Profile</a>
+             {%endif%}
           </div>
           <div class="profile__about">
             <h3>About</h3>
