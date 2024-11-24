@@ -23,13 +23,15 @@
               
              class="btn btn--main btn--pill">Edit Profile</a>
              {%endif%}
+
+             <div class="profile__about">
+              <h3>About</h3>
+              <p>
+                {{user.bio}}
+              </p>
+            </div>
           </div>
-          <div class="profile__about">
-            <h3>About</h3>
-            <p>
-              {{request.user.bio}}
-            </p>
-          </div>
+          
         </div>
 
         <div class="roomList__header">
