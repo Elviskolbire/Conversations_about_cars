@@ -1,6 +1,7 @@
 Car Enthusiasts Conversation Platform
 
-For an in-depth write-up about this project, check out the [Blog Post](BLOG.md).
+Read the detailed blog on our [GitHub Wiki](https://github.com/Elviskolbire/conversations_about_cars/wiki).
+
 
 A Django-based web application that allows car enthusiasts to create and join rooms to discuss specific car types. This project focuses on backend development, providing secure user authentication and features for managing conversations.
 
@@ -30,7 +31,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/project-repo.git  
+git clone https://github.com/Elviskolbire/conservations_about_ca.git  
 Navigate to the project directory:
 
 bash
